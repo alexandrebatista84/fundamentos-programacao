@@ -1,0 +1,6 @@
+print("Vou pedir-lhe dois numeros")
+x= eval(input("Escreva o primeiro numero, X = "))
+y= eval(input("Escreva o segundo numero, Y = "))
+a=(x+3*y)*(x-y)
+print("O valor de ({} + 3 x {}) x ({} - {}) é {}".format(x,y,x,y,a))
+print('O valor de (',x,'+ 3 x',y,') x (',x,'-',y,') é ',a)
