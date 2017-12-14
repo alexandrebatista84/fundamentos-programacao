@@ -1,5 +1,4 @@
 def cinco(n):
-    print (n==5)
+    return n==5
 
-cinco(5)
-
+print(cinco(3))

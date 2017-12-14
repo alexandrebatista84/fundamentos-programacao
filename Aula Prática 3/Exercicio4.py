@@ -12,7 +12,6 @@ def area_coroa (r1, r2):
     return area_circulo(r1), area_circulo(r2)
 
 
-try:
-    print(area_coroa(2,3))
-except ValueError:
-    print("erro")
+
+print(area_coroa(2,3))
+
