@@ -1,7 +1,6 @@
 n=0
 s=0
 
-
 n=eval(input('Introduza o número de horas de trabalho realizado numa semana: '))
 s=eval(input('Introduza o salário por hora: '))
 
