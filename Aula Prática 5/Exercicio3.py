@@ -1,9 +1,8 @@
 def junta_ordenadas(a,b):
-
     a=a+b
-    a.sort()
-    return a
+    c=sorted(a)
+    #a.sort() também devolve a lista ordenada. esta função apenas funciona em listas
+    # a função sorted funciona com qualquer iterável
+    return c 
 
-    
-
-print(junta_ordenadas([0,1,6666,7,8,9,9,-1,-2,100],[2,4,5]))
+print(junta_ordenadas([2,5,90],[3,5,6,12]))

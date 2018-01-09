@@ -47,3 +47,5 @@ print("São necessárias",moedas2c,"moedas de 0.02€.")
 moedas1c=0
 moedas1c=(n-notas50*50-notas20*20-notas10*10-notas5*5-moedas2*2-moedas1-moedas50c*0.5-moedas20c*0.20-moedas10c*0.10-moedas5c*0.05-moedas2c*0.02)//0.01
 print("São necessárias",moedas1c,"moedas de 0.01€.")
+
+# este exercicio tem de ser feito com um ciclo FOR, não sei como fazer
